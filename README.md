@@ -1,6 +1,6 @@
 # NAZRIYA-AI-CHATBOT
 
-<p align="center"><a href="https://t.me/NAZRIYAAIBOT"><img src="https://telegra.ph/file/9963799c1ba7f76444594.jpg" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/NAZRIYAAIBOT"><img srcwidth="5000"></a></p> 
 <h1 align="center"><b>NAZRIYA-AI-CHATBOT</b></h1>
 <h4 align="center">CLICK ON THE IMAGE TO GET CHAT WITH NAZRIYA AI BOT ON TELEGRAM.</h4>
 
