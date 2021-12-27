@@ -46,8 +46,8 @@ async def type_and_send(message):
         responsess = responsee.replace("Aco", "Nazriya")
     else:
         responsess = responsee
-    if "Who is Nazriya?" in responsess:
-        responsess2 = responsess.replace("Who is Nazriya?", "JINNS sister")
+    if "Who is Anaconda?" in responsess:
+        responsess2 = responsess.replace("Who is Anaconda?", "JINNS sister")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -93,7 +93,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hai✌️, its me Nazriya.")
+    await message.reply_text("Hai✌️, its me Dracula.")
 
 
 async def main():
@@ -104,8 +104,8 @@ async def main():
     await bot.start()
     print(
         """
-Nazriya Is Deployed Successfully.
-Join @NAZRIYAUPDATES & NAZRIYASUPPORT. 
+Deployed Successfully.
+Join @Tg_Galaxy . 
 """
     )
     await idle()
