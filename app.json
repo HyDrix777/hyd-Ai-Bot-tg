@@ -1,9 +1,9 @@
 {
-  "name": "NAZRIYAAIBOT",
+  "name": "DNX AI BOT",
   "description": "Open-Source bot for Aichat bot",
-  "logo": "https://telegra.ph/file/94b5bcc6d4a585940918b.jpg",
-  "keywords": ["aichatbot", "nazriya", "telegram"],
-  "repository": "https://github.com/MR-JINN-OF-TG/NAZRIYA-AI-CHATBOT",
+  "logo": "https://telegra.ph/file/7dd2b4a32575a3174cad6.jpg",
+  "keywords": ["aichatbot", "DnX", "telegram"],
+  "repository": "https://github.com/Hydrayt777/hyd-Ai-Bot-tg.git",
   "buildpacks": [{
   "url": "heroku/python"
   }],
