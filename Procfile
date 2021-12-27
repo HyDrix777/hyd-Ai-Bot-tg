@@ -1,1 +1,1 @@
-worker: python3 nazriya.py
+web: python3 nazriya.py
