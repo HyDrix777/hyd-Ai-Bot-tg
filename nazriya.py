@@ -39,15 +39,15 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "typing")
     response, _ = await gather(lunaQuery(query, user_id), sleep(2))
     if "Luna" in response:
-        responsee = response.replace("Luna", "Nazriya")
+        responsee = response.replace("Luna", "Alicia")
     else:
         responsee = response
     if "Aco" in responsee:
-        responsess = responsee.replace("Aco", "Nazriya")
+        responsess = responsee.replace("Aco", "Alicia")
     else:
         responsess = responsee
-    if "Who is Nazriya?" in responsess:
-        responsess2 = responsess.replace("Who is Nazriya?", "JINNS sister")
+    if "Who is Alicia?" in responsess:
+        responsess2 = responsess.replace("Who is Alicia?", "Lucifer sister")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -93,7 +93,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hai✌️, its me Nazriya.")
+    await message.reply_text("Hai✌️, its me Alicia.")
 
 
 async def main():
@@ -105,7 +105,7 @@ async def main():
     print(
         """
 Nazriya Is Deployed Successfully.
-Join @NAZRIYAUPDATES & NAZRIYASUPPORT. 
+Join @Galaxy_bots. 
 """
     )
     await idle()
